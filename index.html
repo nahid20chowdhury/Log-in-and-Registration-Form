@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login and Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="hero">
+        <div class="form-box">
+            <div class="contact-title">
+                <h1><strong>আদর্শ</strong></h1>
+            </div>
+            <div class="button-box">
+                <div id="btn"></div>
+
+                <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                <button type="button" class="toggle-btn" onclick="register()">Register</button>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/"><img src="facebook.png"></a>
+                <a href="https://twitter.com/explore"><img src="twitter.png"></a>
+                <a href="
+                https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><img src="google.png"></a>
+            </div>
+            <form id="login" class="input-login">
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="text" class="input-field" placeholder="Enter Password" required>
+                <input type="checkbox" class="check-box"><span>Remember Password</span>
+                <button type="Submit" class="submit-btn">Log in</button>
+            </form>
+            <form id="register" class="input-register">
+                <input type="text" class="input-regi" placeholder="User Id" required>
+                <input type="email" class="input-regi" placeholder="Email Id" required>
+                <input type="text" class="input-regi" placeholder="Enter Password" required>
+                <input type="checkbox" class="check-bof"><span>I agree to the terms and conditions</span>
+                <button type="Submit" class="submit-btm">Register</button>
+            </form>
+        </div>
+
+    </div>
+
+    <script>
+        var x = document.getElementById("login");
+        var y = document.getElementById("register");
+        var z = document.getElementById("btn");
+
+        function register() {
+            x.style.left = "-400px"
+            y.style.left = "50px"
+            z.style.left = "110px"
+        }
+
+        function login() {
+            x.style.left = "50px"
+            y.style.left = "450px"
+            z.style.left = "0"
+        }
+    </script>
+
+</body>
+
+</html>
