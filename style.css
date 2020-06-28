@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: AdarshaPro, sans-serif;
+    font-family: sans-serif;
 }
 
 .hero {
@@ -147,11 +147,11 @@
 }
 
 .check-box {
-    margin: 30px 10px 52px 0;
+    margin: 30px 10px 50px 0;
 }
 
 .check-bof {
-    margin: 25px 10px 52px 0;
+    margin: 25px 10px 50px 0;
 }
 
 span {
