@@ -2,6 +2,15 @@
 <html>
 
 <head>
+    <script type="text/javascript">
+        var test = 19;
+
+        if (test == 10) {
+            alert(test);
+        } else if (test == 19) {
+            alert("Press 'Ok' to continue")
+        }
+    </script>
     <title>Login and Registration Form</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -26,15 +35,15 @@
             </div>
             <form id="login" class="input-login">
                 <input type="text" class="input-field" placeholder="User Id" required>
-                <input type="text" class="input-field" placeholder="Enter Password" required>
+                <input type="password" class="input-field" placeholder="Enter Password" required>
                 <input type="checkbox" class="check-box"><span>Remember Password</span>
                 <button type="Submit" class="submit-btn">Log in</button>
             </form>
             <form id="register" class="input-register">
                 <input type="text" class="input-regi" placeholder="User Id" required>
                 <input type="email" class="input-regi" placeholder="Email Id" required>
-                <input type="text" class="input-regi" placeholder="Enter Password" required>
-                <input type="checkbox" class="check-bof"><span>I agree to the terms and conditions</span>
+                <input type="password" class="input-regi" placeholder="Enter Password" required>
+                <input type="checkbox" class="check-bof" required><span>I agree to the terms and conditions</span>
                 <button type="Submit" class="submit-btm">Register</button>
             </form>
         </div>
@@ -58,7 +67,9 @@
             z.style.left = "0"
         }
     </script>
-
+    <footer id="main-footer">
+        <p>Copyright &copy; Form</p>
+    </footer>
 </body>
 
 </html>
