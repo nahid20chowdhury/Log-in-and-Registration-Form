@@ -1,0 +1,19 @@
+{
+    "folders": [
+		{
+			"path": "..\\..\\..\\..\\..\\web development\\Programming"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\web development\\gui"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\website"
+		}
+	],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "Log-in and Registration Form"
+    }
+}
